@@ -31,6 +31,7 @@ class QueryHelper(object):
         Raises:
             ValueError if sources is set with country or category.
         """
+        # raise NotImplementedError
 
         if sources is not None and (country is not None or category is not None):
                 raise ValueError(ERROR_TEXT)

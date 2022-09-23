@@ -76,6 +76,7 @@ class SlackFacade(object):
         logging.info("Preparing slack message data...")
         # Chunk data
         logging.info("Chunking data...")
+        # create list of lists
         final_message_keys = [
             articles[i:i + n] for i in range(0, len(articles), n)
         ]

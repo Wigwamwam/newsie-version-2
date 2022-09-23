@@ -11,6 +11,7 @@ python-dateutil = "*"
 pytest = "*"
 pytest-mock = "*"
 slack-api = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
